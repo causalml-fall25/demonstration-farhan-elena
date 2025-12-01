@@ -1,0 +1,16 @@
+name: causal-demo-12
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - networkx
+  - matplotlib
+  - jupyter
+  - seaborn
+  - pip
+  - pip:
+      - tqdm
+      - statsmodels
+      - causalgraphicalmodels
